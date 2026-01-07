@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    width:100%;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin-top: 50px;
+    width: 80%;
+    margin: 0;
+     display: block;
+}
+
+.h1{
+    font-size: 48px;
+   font-family: 'Arial Black', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(28, 43, 28);
+    line-height: 1.2;
+    margin: 30px;
+}
+.h2{
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Common button styles */
+.button {
+    width: 30%;
+    padding: 0.75rem; /* p-3 */
+    border-radius: 0.75rem; /* rounded-xl */
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px;
+    border: none;
+}
+
+/* Sign up & Sign in buttons */
+.button-primary {
+    background-color: #2563EB; /* bg-blue-600 */
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #1D4ED8; /* hover:bg-blue-700 */
+}
+
+/* Google login button */
+.button-google {
+    width: 50%;
+    border: 1px solid #D1D5DB; /* default gray border */
+    background-color: white;
+    border-radius: 0.75rem; /* rounded-xl */
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center content horizontally */
+    gap: 0.5rem; /* space between icon and text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-google:hover {
+    background-color: #F3F4F6; /* hover:bg-gray-50 */
+}
+
+.button-google img {
+    width: 20px;
+}
