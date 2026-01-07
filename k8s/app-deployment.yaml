@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: laravel
-        image: amcs25/gestion-etudiant:v1
+        image: amcs25/gestion-etudiant:v2
         env:
         - name: DB_HOST
           value: "mariadb-service"
